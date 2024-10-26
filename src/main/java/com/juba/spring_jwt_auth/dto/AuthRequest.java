@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.dto;
+package com.juba.spring_jwt_auth.dto;
 
 public class AuthRequest {
 

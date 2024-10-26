@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.controller;
+package com.juba.spring_jwt_auth.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.juba.spring_boot_library.dto.AuthRequest;
-import com.juba.spring_boot_library.model.UserInfo;
-import com.juba.spring_boot_library.service.JwtService;
-import com.juba.spring_boot_library.service.UserInfoService;
+import com.juba.spring_jwt_auth.dto.AuthRequest;
+import com.juba.spring_jwt_auth.model.UserInfo;
+import com.juba.spring_jwt_auth.service.JwtService;
+import com.juba.spring_jwt_auth.service.UserInfoService;
 
 @RestController
 @RequestMapping("/auth")

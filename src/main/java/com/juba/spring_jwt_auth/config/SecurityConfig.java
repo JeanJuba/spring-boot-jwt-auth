@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.config;
+package com.juba.spring_jwt_auth.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.juba.spring_boot_library.service.UserInfoService;
+import com.juba.spring_jwt_auth.service.UserInfoService;
 
 @Configuration
 @EnableWebSecurity

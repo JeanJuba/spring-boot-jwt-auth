@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.service;
+package com.juba.spring_jwt_auth.service;
 
 import java.util.Optional;
 
@@ -9,9 +9,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.juba.spring_boot_library.dto.UserInfoDetails;
-import com.juba.spring_boot_library.model.UserInfo;
-import com.juba.spring_boot_library.repository.UserInfoRepository;
+import com.juba.spring_jwt_auth.dto.UserInfoDetails;
+import com.juba.spring_jwt_auth.model.UserInfo;
+import com.juba.spring_jwt_auth.repository.UserInfoRepository;
 
 @Service
 public class UserInfoService implements UserDetailsService {

@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.dto;
+package com.juba.spring_jwt_auth.dto;
 
 import java.util.Collection;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.juba.spring_boot_library.model.UserInfo;
+import com.juba.spring_jwt_auth.model.UserInfo;
 
 public class UserInfoDetails implements UserDetails {
 

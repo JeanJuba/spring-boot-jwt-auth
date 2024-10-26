@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.config;
+package com.juba.spring_jwt_auth.config;
 
 import java.io.IOException;
 
@@ -10,8 +10,8 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.juba.spring_boot_library.service.JwtService;
-import com.juba.spring_boot_library.service.UserInfoService;
+import com.juba.spring_jwt_auth.service.JwtService;
+import com.juba.spring_jwt_auth.service.UserInfoService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

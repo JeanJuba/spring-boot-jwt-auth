@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.model;
+package com.juba.spring_jwt_auth.model;
 
 import java.util.Objects;
 

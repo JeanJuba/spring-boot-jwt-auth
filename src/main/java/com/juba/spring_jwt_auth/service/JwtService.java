@@ -1,4 +1,4 @@
-package com.juba.spring_boot_library.service;
+package com.juba.spring_jwt_auth.service;
 
 import java.security.Key;
 import java.util.Date;
